@@ -11,6 +11,10 @@ cargo install --git
 ```
 
 ## Setup
+
+If you have not your api key. You can get it from [here](https://platform.openai.com/account/api-keys)
+
+Then you can set it as an environment variable
 ```bash
 export OPENAI_API_KEY=<your openai api key>
 ```
