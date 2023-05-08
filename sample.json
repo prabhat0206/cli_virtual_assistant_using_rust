@@ -1,0 +1,19 @@
+{
+  "id": "chatcmpl-7DoE0HWkQRNVioRzWJ0SVcktUtgDg",
+  "object": "chat.completion",
+  "created": 1683525684,
+  "model": "gpt-3.5-turbo-0301",
+  "usage": { "prompt_tokens": 14, "completion_tokens": 5, "total_tokens": 19 },
+  "choices": [
+    {
+      "message": { "role": "assistant", "content": "This is a test!" },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ],
+  "input": {
+    "model": "gpt-3.5-turbo",
+    "messages": [{ "role": "user", "content": "Say this is a test!" }],
+    "temperature": 0.7
+  }
+}
