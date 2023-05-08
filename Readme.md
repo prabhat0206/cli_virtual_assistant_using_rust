@@ -10,8 +10,13 @@ This is a CLI virtual assistant that uses openai to answer questions. It is a pe
 cargo install --git
 ```
 
-## Usage
+## Setup
+```bash
+export OPENAI_API_KEY=<your openai api key>
+```
+or add it to your .env file
 
+## Usage
 ```bash
 cargo run
 ```
